@@ -1,7 +1,7 @@
 import React from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 
-export default  (props) => {
+const UseRef = (props) => {
     return (
         <div className="UseCustom">
             <PageTitle
@@ -11,3 +11,5 @@ export default  (props) => {
         </div>
     )
 }
+
+export default UseRef
