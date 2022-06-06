@@ -22,7 +22,11 @@ const UseMemo = (props) => {
     const [n2, setN2] = useState(0);
     const [n3, setN3] = useState(0);
     
-    
+
+    /* 
+    * Retorna um valor memoizado, armazenado no cache
+    * Apenas retorna caso um valor tenha sido modificado
+    */
     const result = useMemo(() => sum(n1,n2),[n1,n2]);
 
     return (
