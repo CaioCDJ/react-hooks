@@ -1,5 +1,5 @@
-import React, { useReducer } from 'react'
-import PageTitle from '../../components/layout/PageTitle'
+import React, { useReducer } from 'react';
+import PageTitle from '../../components/layout/PageTitle';
 import { reducer,initilState } from '../../store';
 import { numberAdd2,login } from '../../store/actions';
 // use reducer = useState Customizado

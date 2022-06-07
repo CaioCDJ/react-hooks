@@ -10,7 +10,7 @@ import UseState from "../../views/examples/UseState";
 import UseMemo from "../../views/examples/UseMemo";
 import UseReducer from "../../views/examples/UseReducer";
 import NotFound from '../../views/examples/NotFound';
-import useCustom from '../../views/examples/UseCustom';
+import UseCustom from "../../views/examples/UseCustom";
 
 export default ()=>{
 
@@ -25,7 +25,7 @@ export default ()=>{
                 <Route path='/useContext' element={<UseContext />} />
                 <Route path='/useMemo' element={<UseMemo />} />
                 <Route path='/useReducer' element={<UseReducer />} />
-                <Route path='/useCustom' element={<useCustom />} />
+                <Route path='/useCustom' element={<UseCustom />} />
                 <Route path='*' element={<NotFound />} />
                 
             </Routes>
